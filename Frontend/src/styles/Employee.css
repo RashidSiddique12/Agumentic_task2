@@ -1,0 +1,19 @@
+.employee-container{
+    height: 100%;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.employee-container .logout-button{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
